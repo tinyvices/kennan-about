@@ -1,0 +1,4 @@
+---
+applications:
+- name: kennan-about 
+  memory: 1G
