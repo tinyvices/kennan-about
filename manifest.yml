@@ -1,4 +1,7 @@
 ---
 applications:
-- name: kennan-about 
-  memory: 128MB
+- name: kennan-about
+  path: build 
+  memory: 16MB
+  buildpacks:
+    - https://github.com/cloudfoundry/staticfile-buildpack.git
