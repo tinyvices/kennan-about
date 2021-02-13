@@ -2,16 +2,16 @@ import React, { Component } from 'react';
 import logo from './logo.png';
 import './App.css';
 
+const user = 'ty'
+const site = 'kennan.io'
+
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-	    {/*<img src={logo} className="App-logo" alt="logo">*/}
-          <h1 className="App-title">[coming soon]</h1>
-        </header>
-        <p className="App-intro">
-        </p>
+	<img src={logo} className="App-logo" alt="logo" />
+	<br />
+	Contact me: <a href={"mailto:" + user + "@" + site}>{user}@{site}</a> 
       </div>
     );
   }
